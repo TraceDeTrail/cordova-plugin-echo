@@ -1,4 +1,4 @@
-package com.tracedetrail.cordova.echo;
+package com.tracedetrail.cordova.Echo;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
