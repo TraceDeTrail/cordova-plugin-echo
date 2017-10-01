@@ -15,7 +15,6 @@
         <config-file target="config.xml" parent="/*">
             <feature name="Echo">
                 <param name="android-package" value="com.tracedetrail.cordova.echo"/>
-                <param name="onload" value="true" />
             </feature>
         </config-file>
 
