@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-echo",
+  "version": "0.1.0",
+  "description": "Cordova Plugin ECHO.",
+  "cordova": {
+    "id": "cordova-plugin-altimeter",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraceDeTrail/cordova-plugin-echo.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova",
+    "core motion",
+    "barometer",
+    "altimeter",
+    "altitude",
+    "pressure",
+    "weather",
+    "sensor",
+    "ecosystem:cordova"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Trace de Trail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TraceDeTrail/cordova-plugin-echo/issues"
+  },
+  "homepage": "https://github.com/TraceDeTrail/cordova-plugin-echo#readme"
+}
