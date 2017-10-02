@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-echo" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Echo</name>
+<plugin id="com.tracedetrail.echo" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>echo</name>
     <author>Trace de Trail</author>
     <description>Cordova Plugin Echo.</description>
     <keywords>cordova, core motion, barometer, altimeter, altitude, pressure, weather, sensor</keywords>
@@ -8,17 +8,17 @@
     <engines>
         <engine name="cordova" version="&gt;=3.0.0" />
     </engines>
-    <js-module name="Echo" src="www/Echo.js">
+    <js-module name="echo" src="www/echo.js">
         <clobbers target="echo" />
     </js-module>
     <platform name="android">
         <config-file target="config.xml" parent="/*">
-            <feature name="Echo">
-                <param name="android-package" value="com.tracedetrail.cordova.echo"/>
+            <feature name="echo">
+                <param name="android-package" value="com.tracedetrail.echo"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Echo.java" target-dir="src/com/tracedetrail/cordova" />
+        <source-file src="src/android/echo.java" target-dir="src/com/tracedetrail/" />
     </platform>
 
 </plugin>

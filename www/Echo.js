@@ -1,14 +1,14 @@
 
-var Echo = function () {
-    this.name = "Echo";
+var echo = function () {
+    this.name = "echo";
 };
 
-Echo.prototype.echo = function(str, callback) {
+echo.prototype.echo = function(str, callback) {
     cordova.exec(callback, function(err) {
         callback(err);
-    }, "Echo", "echo", [str]);
+    }, "echo", "echo", [str]);
 };
 
 
 
-module.exports = new Echo();
+module.exports = new echo();
