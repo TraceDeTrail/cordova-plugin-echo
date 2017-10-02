@@ -5,7 +5,7 @@ var Echo = function () {
 
 Echo.prototype.echo = function(str, callback) {
     cordova.exec(callback, function(err) {
-        callback('Nothing to echo.');
+        callback(err);
     }, "echo", "echo", [str]);
 };
 
