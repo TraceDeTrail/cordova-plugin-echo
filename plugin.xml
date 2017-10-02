@@ -18,7 +18,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/Echo.java" target-dir="src/com/tracedetrail/cordova/echo" />
+        <source-file src="src/android/Echo.java" target-dir="src/com/tracedetrail/cordova" />
     </platform>
 
 </plugin>
