@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Cordova Plugin ECHO.",
   "cordova": {
-    "id": "cordova-plugin-altimeter",
+    "id": "cordova-plugin-echo",
     "platforms": [
       "android"
     ]
@@ -17,9 +17,6 @@
     "cordova-ios",
     "cordova",
     "core motion",
-    "barometer",
-    "altimeter",
-    "altitude",
     "pressure",
     "weather",
     "sensor",
